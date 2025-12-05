@@ -22,7 +22,7 @@ export const SettingsPage: React.FC = () => {
       <header className="space-y-1">
         <p className="text-xs uppercase tracking-[0.4em] text-[#333]">Settings</p>
         <h1 className="text-3xl font-heading text-[#111]">Tune the taskbar</h1>
-        <p className="text-[#333]">Blend the Win95 chrome with the glassy overlay, tune navigation memory, and reskin the taskbar.</p>
+        <p className="text-[#333]">Tune your personality with taskbar accent, and options for your account are here!</p>
       </header>
       <Card>
         <CardHeader>

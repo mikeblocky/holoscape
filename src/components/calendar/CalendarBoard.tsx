@@ -6,7 +6,7 @@ import { Badge } from '@/components/ui/badge';
 import { useLocalStorage } from '@/hooks/useLocalStorage';
 import { cn } from '@/lib/utils';
 
-const palette = ['#0a246a', '#c00040', '#008080', '#c17d0a'];
+const palette = ['#c9daff', '#ffacbb', '#c38f7a', '#b6f2a5'];
 
 type CalendarNote = {
   id: string;

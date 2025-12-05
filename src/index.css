@@ -269,7 +269,7 @@ body {
 .portal-main {
   width: min(1200px, 92vw);
   margin: 0 auto;
-  padding: clamp(1.5rem, 3vw, 3rem) 1.25rem 4rem;
+  padding: clamp(1.5rem, 3vw, 3rem) 1.25rem clamp(1.5rem, 3vw, 3rem);
 }
 
 .portal-main--full {
