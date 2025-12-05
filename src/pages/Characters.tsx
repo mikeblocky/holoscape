@@ -83,8 +83,6 @@ export const CharactersPage: React.FC = () => {
             <span className="character-card__doodle character-card__doodle--right" aria-hidden="true" />
             <div className="character-note">{character.note}</div>
             <div className="character-photo">
-              <span className="character-photo__shape character-photo__shape--primary" aria-hidden="true" />
-              <span className="character-photo__shape character-photo__shape--secondary" aria-hidden="true" />
               <img src={character.image} alt={`${character.name} portrait`} loading="lazy" />
             </div>
             <h2 className="character-name">{character.name}</h2>
