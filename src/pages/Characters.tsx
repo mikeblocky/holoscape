@@ -57,7 +57,11 @@ const CAST = [
 
 type Character = (typeof CAST)[number];
 
-const cardStyle = (character: Character): CSSProperties => ({
+type CharacterStyle = CSSProperties & {
+  '--character-accent'?: string;
+};
+
+const cardStyle = (character: Character): CharacterStyle => ({
   '--character-accent': character.accent
 });
 
